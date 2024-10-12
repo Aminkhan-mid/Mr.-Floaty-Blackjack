@@ -1,0 +1,110 @@
+/* Set the text alignment to center for the entire body */
+body{
+    /* Center the text horizontally */
+    text-align: center;
+    /* Set the background color of the body to a light beige color */
+    background-color: #FCFAEE;
+}
+
+/* Style the container element */
+.container{
+    /* Center the text horizontally within the container */
+    text-align: center;
+    /* Set the background color of the container to a deep red color */
+    background-color: #B8001F;
+    /* Set the text color to white */
+    color: white;
+    /* Add a rounded corner effect to the container with a radius of 40 pixels */
+    border-radius: 40px;
+    /* Set the width of the container to 63% of its parent element */
+    width: 63%;
+    /* Add a small amount of padding (2 pixels) to the container */
+    padding: 2px;
+    /* Set the margin to the left of the container to 19% of its parent element */
+    margin-left: 19%;
+    /* Set the font family to a sans-serif font */
+    font-family: sans-serif;
+    /* Add a 2-pixel solid black border around the container */
+    border: 2px solid black;
+}
+
+/* Style the h1 element */
+h1{
+    /* Set the font size of the h1 element to 3em */
+    font-size: 3em;
+    /* Add a text shadow effect to the h1 element with the following properties:
+       - horizontal offset: 3px
+       - vertical offset: 9px
+       - blur radius: 8px
+       - color: #956f6f */
+    text-shadow: 3px 9px 8px #956f6f;
+}
+/* Style the #message-el element */
+#message-el{
+    /* Set the font size of the #message-el element to 3em */
+    font-size: 3em; /* Sets the font size of the #message-el element to 3em */
+    /* Add a text shadow effect to the #message-el element with the following properties:
+       - horizontal offset: 3px
+       - vertical offset: 9px
+       - blur radius: 8px
+       - color: black */
+    text-shadow: 3px 9px 8px #000000; /* Adds a text shadow effect to the #message-el element with the specified properties */
+}
+
+/* Style the #cards-el and #sum-el elements */
+#cards-el, #sum-el{
+    /* Set the font size of the #cards-el and #sum-el elements to 2em */
+    font-size: 2em; /* Sets the font size of the #cards-el and #sum-el elements to 2em */
+    /* Set the text color of the #cards-el and #sum-el elements to greenyellow */
+    color: greenyellow; /* Sets the text color of the #cards-el and #sum-el elements to greenyellow */
+}
+
+/* Override the text color of the #cards-el element to white */
+#cards-el{
+    /* Set the text color of the #cards-el element to white */
+    color: rgb(255, 255, 255); /* Sets the text color of the #cards-el element to white */
+}
+
+/* Style elements with the class .carSum */
+.carSum{
+    /* Set the background color of the .carSum elements to black */
+    background-color: #000000; /* Sets the background color of the .carSum elements to black */
+    /* Set the width of the .carSum elements to 40% of their parent element */
+    width: 40%; /* Sets the width of the .carSum elements to 40% of their parent element */
+    /* Add a small amount of padding (1 pixel) to the .carSum elements */
+    padding: 1px; /* Adds a small amount of padding (1 pixel) to the .carSum elements */
+    /* Add a rounded corner effect to the .carSum elements with a radius of 15 pixels */
+    border-radius: 15px; /* Adds a rounded corner effect to the .carSum elements with a radius of 15 pixels */
+    /* Set the margin to the bottom of the .carSum elements to 34 pixels */
+    margin-bottom: 34px; /* Sets the margin to the bottom of the .carSum elements to 34 pixels */
+    /* Set the margin to the left of the .carSum elements to 29% of their parent element */
+    margin-left: 29%; /* Sets the margin to the left of the .carSum elements to 29% of their parent element */
+}
+
+/* Style button elements */
+button{
+    /* Set the font size of button elements to 30 pixels */
+    font-size: 30px; /* Sets the font size of button elements to 30 pixels */
+    /* Add a moderate amount of padding (10 pixels) to button elements */
+    padding: 10px; /* Adds a moderate amount of padding (10 pixels) to button elements */
+    /* Add a rounded corner effect to button elements with a radius of 10 pixels */
+    border-radius: 10px; /* Adds a rounded corner effect to button elements with a radius of 10 pixels */
+    /* Set the background color of button elements to a dark blue color */
+    background-color: #384B70; /* Sets the background color of button elements to a dark blue color */
+    /* Set the text color of button elements to white */
+    color: white; /* Sets the text color of button elements to white */
+}
+
+/* Style the #player-el element */
+#player-el{
+    /* Set the font size of the #player-el element to 2.4em */
+    font-size: 2.4em; /* Sets the font size of the #player-el element to 2.4em */
+    /* Set the text color of the #player-el element to greenyellow */
+    color: greenyellow; /* Sets the text color of the #player-el element to greenyellow */
+    /* Add a text shadow effect to the #player-el element with the following properties:
+       - horizontal offset: 3px
+       - vertical offset: 9px
+       - blur radius: 8px
+       - color: black */
+    text-shadow: 3px 9px 8px #000000; /* Adds a text shadow effect to the #player-el element with the specified properties */
+}

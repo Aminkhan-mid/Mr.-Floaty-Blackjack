@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Mr. Blackjack</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>♣ Mr. Floaty Blackjack ♣</h1> <!--First heading, name of the Game!-->
+
+    <div class="container"> <!--Storing all the elements in a div container for styling.-->
+        <h2 id="message-el">Want to play one round:🃏</h2><!--Second heading, this is where the games message is displayed.-->
+
+        <div class="carSum">  <!--A div called carSum which contians the cards and and sum of the cards, this div is created for adding style.-->
+            <p id="cards-el">Cards: 🎰</p><!--p tag containing the id of cards-el to display all the cards.-->
+            <p id="sum-el">Sum: 💰</p><!--p tag containing the id of sum-el to dispalay the sum of the cards.-->
+        </div>
+
+        <button onclick="startGame()">START GAME</button><!--Start button with an onclick attribute which triggers the function which starts the game.-->
+        <button onclick="newCard()">NEW CARD</button><!--New card button with an onclick attritbute which triggers the function if we could pick a card or not.-->
+
+        <p id="player-el"></p><!--p tag with an id of player-el to display an object with stores the data of the player like name and chips-left.-->
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
