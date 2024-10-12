@@ -61,7 +61,7 @@ function renderGame(){
         if(sum <= 20){
         message = "Do You Want To Draw A New Card? 🚩"
     } else if (sum === 21){
-        message = "🏆 You've Got Blackjack!! 💸🤑💰"// only if the the sum is 21 then hasBlackJack become true other than that its always flase.
+        message = "🏆 You've Got Blackjack!! 💰💰💰"// only if the the sum is 21 then hasBlackJack become true other than that its always flase.
         hasBlackJack = true
     } else {
         message = "Sorry, You're Out Of The Game! 👎"
