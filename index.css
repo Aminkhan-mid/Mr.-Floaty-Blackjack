@@ -2,8 +2,10 @@
 body{
     /* Center the text horizontally */
     text-align: center;
-    /* Set the background color of the body to a light beige color */
-    background-color: #FCFAEE;
+   /* Set the background color of the body to linear-gradient */
+   background:linear-gradient(#FCFAEE, #384B70, #330005);
+   /*setting height to full lenght of the bowser*/
+   height: 100vh;
 }
 
 /* Style the container element */
@@ -107,4 +109,10 @@ button{
        - blur radius: 8px
        - color: black */
     text-shadow: 3px 9px 8px #000000; /* Adds a text shadow effect to the #player-el element with the specified properties */
+}
+
+/*change the reset button background color and text color to make it different from the other two buttons*/
+#reset-btn{
+    background-color:#F9FBED;
+    color: #330005;
 }

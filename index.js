@@ -10,10 +10,12 @@ let player = {
 
 
 // Grabbing html elements with their id's and storing them into let variables for later use, the id's are Message, Cards, Sum, and Player.
-let messageEl = document.getElementById("message-el") 
-let cardEl = document.getElementById("cards-el")
-let sumEl = document.getElementById("sum-el")
-let playerEl = document.getElementById("player-el")
+const messageEl = document.getElementById("message-el") 
+const cardEl = document.getElementById("cards-el")
+const sumEl = document.getElementById("sum-el")
+const playerEl = document.getElementById("player-el")
+const resetBtn = document.getElementById("reset-btn") // grabing the button by id.
+
 
 
 // Using the player-el id to display player's data which is stored in the player object.
@@ -81,3 +83,16 @@ function newCard(){
         renderGame()// after picking and adding the card we are calling the render game again to check weather the player has won or lost by picking the new card and also to see if we can still play the game or not.
     }
 }
+
+
+resetBtn.addEventListener("click", function(){ // using addeventlistener to make the convert the ids variable into a button.
+    // The text of messageEl, cardEl, and sumEl are back to what they were before clikcking start game. 
+    messageEl.textContent = "Want to play one round:🃏" 
+    cardEl.textContent = "Cards: 🎰"
+    sumEl.textContent = "Sum: 💰"
+    // The values are reset back to empty and false.
+    cards = []
+    sum = 0
+    isAlive = false
+    hasBlackJack = false
+})
