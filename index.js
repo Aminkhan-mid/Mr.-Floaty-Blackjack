@@ -5,7 +5,7 @@ let hasBlackJack = false // the game hasn't even being so the player did not won
 let message = "" // message variable have empty string to display apporiate message according to the sum of the cards.
 let player = {
     name: "Amin Khan",
-    chips: 200
+    chips: 150
 } // player object to store name and chips data.
 
 
